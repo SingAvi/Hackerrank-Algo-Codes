@@ -1,3 +1,4 @@
+
 num = int(input())
 
 ar  = list(map(int,input().rstrip().split()))
@@ -6,6 +7,7 @@ ar  = list(map(int,input().rstrip().split()))
 
 ar.sort()
 ar.append('#')
+print(ar)
 def pairMerchant(ar,num):
     i = 0
     count = 0
